@@ -1,0 +1,22 @@
+.first-box {
+    background-color: rgb(114, 63, 26);
+    color: white;
+}
+
+.red-box {
+    background-color: rgb(255, 0, 0);
+    width: 100px;
+    height: 100px;
+}
+.elements-container {
+    width: 300px;
+    background-color: rgb(185, 111, 255);
+}
+.element {
+    background-color: blueviolet;
+    color: white;
+}
+
+.text {
+    color: rgb(255, 0, 234);
+}
