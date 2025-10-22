@@ -1,0 +1,18 @@
+header {
+    background-color: orange;
+    height: 60px;
+}
+div {
+    background-color: rgb(226, 180, 139);
+}
+cite {
+    font-style: normal;
+}
+footer {
+    background-color: blueviolet;
+    color: white;
+    height: 300px;
+}
+a {
+    color: black
+}
