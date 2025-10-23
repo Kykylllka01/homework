@@ -1,0 +1,18 @@
+.main {
+    height: 770px;
+    background-color: rgb(218, 209, 225);
+    border: 1px solid black;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    overflow: auto;
+    font-size: 25px;
+}
+.card {
+    width: 350px;
+    background: #c9bc6f;
+    padding: 15px 30px 15px;
+    border-radius: 30px;
+    margin: 10px 10px 15px 5px;
+    display: inline-block;
+    box-shadow: 0px 0px 14px 12px rgba(34, 60, 80, 0.32) inset;
+}
