@@ -1,0 +1,238 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    background-color: #181e34;
+}
+
+header {
+    height: 114px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 895px;
+}
+
+.img-container {
+    width: 48px;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 34px;
+    flex-basis: 437px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.small-buttons {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.small-button {
+    background: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.big-button {
+    border-radius: 100px;
+    padding: 14px 30px;
+    width: 113px;
+    height: 48px;
+    color: #2766ae;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.first-section {
+    background: url(../img/background.jpg) no-repeat center;
+    background-color: rgba(24, 30, 52, 0.81);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 508px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    gap: 60px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase;
+    height: 49px;
+    width: 269px;
+}
+
+.first-container {
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-container {
+    flex-basis: 436px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.selected-text {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #01a2cb;
+}
+
+.blue-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.blue-button {
+    border-radius: 100px;
+    padding: 18px 30px;
+    width: 320px;
+    height: 56px;
+    background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
+}
+
+.other-gradient {
+    background: linear-gradient(129deg, #00a4cc 0%, #2766ae 100%);
+}
+
+.second-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 808px;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 568px;
+}
+
+.second-text-container {
+    display: flex;
+    width: 513px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 112px;
+    justify-content: space-between;
+}
+
+.cards-container {
+    max-width: 900px;
+    height: 396px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 28px;
+}
+
+.card {
+    border: 2px solid #176bae;
+    border-radius: 16px;
+    padding: 28px;
+    width: 204px;
+    height: 141px;
+    box-shadow: 4px 4px 13px 0 rgba(5, 13, 41, 0.76);
+    background: #197cb8;
+}
+
+.name-card {
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.text-card {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.card-button {
+    border-radius: 100px;
+    padding: 18px 30px;
+    width: 436px;
+    height: 56px;
+    background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 2px;
+}
+
+footer {
+    height: 361px;
+    border-top: #323952 solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 811px;
+    height: 241px;
+}
+
+.footer-left-container {
+    width: 267px;
+    height: 159px;
+
+}
+
+.mrgn {
+    margin-top: 15px;
+}
+
+.footer-right-container {
+    display: flex;
+    gap: 117px;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start  ;
+}
+.name-list {
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
