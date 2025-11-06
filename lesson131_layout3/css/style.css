@@ -311,6 +311,7 @@
 .nav__list--footer {
     flex-direction: column;
     gap: 10px;
+    align-items: center;
 }
 
 .nav__item {}
@@ -493,4 +494,5 @@
     .footer__logo-caption {
         display: none;
     }
+
 }
