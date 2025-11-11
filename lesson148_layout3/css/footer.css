@@ -1,0 +1,85 @@
+.footer {
+    background-color: #ab8261;
+    color: var(--background);
+    min-height: 253px;
+    padding-top: 30px;
+}
+
+.footer__inner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 30px 56px;
+}
+
+.footer__col {
+    max-width: 272px;
+    width: 100%;
+}
+
+.footer__logo-caption {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.socials__list {
+    display: flex;
+    gap: 15px;
+}
+
+.social__link path {
+    transition: fill .4s;
+}
+
+.social__link:hover path {
+    fill: var(--accent);
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav__list--footer {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__info img {
+    margin-right: 8px;
+}
+
+.footer__info-item:first-child {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.footer__info-item:first-child span {
+    margin-right: 10px;
+}
+
+.footer__consult {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.footer__consult a {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 160%;
+    transition: color .4s;
+}
+
+.footer__consult a:hover {
+    color: var(--accent);
+}
+
+.footer__consult-caption {
+    justify-self: flex-end;
+    color: #dec5b1;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
