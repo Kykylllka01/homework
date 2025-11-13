@@ -1,0 +1,198 @@
+:root {
+    --accent: #ffa55c;
+    --accent-2: #ceaad0;
+    --background-accent: #ffe0cb;
+    --background: #fff9f4;
+    --title: #1f1711;
+    --text: #312c27;
+    --accent-icon: #704174;
+    --disabled: #e1d9e1;
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "Gabriola", sans-serif;
+}
+
+.body {
+    font-family: var(--font-family);
+    background-color: var(--background);
+    color: var(--text);
+    line-height: 1.5;
+}
+
+.body--opened-menu {
+    overflow: hidden;
+}
+
+.body--opened-modal {
+    overflow: hidden;
+}
+
+.body--opened-modal .modal {
+    overflow: hidden;
+    opacity: 1;
+    visibility: visible;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.main__about-school {
+    padding: 140px 0;
+}
+
+.main__program,
+.main__gallery,
+.main__testimonials {
+    padding-bottom: 140px;
+}
+
+.container {
+    max-width: 1310px;
+    padding: 0 15px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 62px;
+    border-radius: 60px;
+    padding: 3px 15px;
+    background-color: var(--accent);
+    line-height: 160%;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color, 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #ff9138;
+}
+
+.title {
+    font-size: 74px;
+    line-height: 82%;
+    font-family: var(--second-family);
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f17114e;
+    z-index: 2;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s;
+}
+
+.modal__window {
+    max-width: 428px;
+    max-height: 491px;
+    background-color: var(--background);
+    border-radius: 20px;
+    padding: 133px 60px 60px 60px;
+    position: relative;
+}
+
+.modal__btn-close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.modal__btn-close path,
+.modal__btn-close rect {
+    transition: stroke .4s;
+}
+
+.modal__btn-close:hover path,
+.modal__btn-close:hover rect {
+    stroke: #ac907a;
+}
+
+.modal__img {
+    position: absolute;
+    top: -65px;
+    left: 72px;
+}
+
+.modal__title {
+    font-size: 42px;
+    line-height: 90%;
+    color: var(--title);
+    font-family: var(--second-family);
+    margin-bottom: 10px;
+}
+
+.modal__text {
+    margin-bottom: 30px;
+}
+
+.modal__label {
+    margin-bottom: 10px;
+}
+
+.input {
+    position: relative;
+    min-height: 62px;
+    width: 100%;
+    display: block;
+}
+
+.input span {
+    position: absolute;
+    top: 12px;
+    left: 28px;
+    font-size: 11px;
+    color: #ac907a;
+    line-height: 150%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s;
+}
+
+.input__field {
+    border: 1px solid #ac907a;
+    border-radius: 100px;
+    padding: 19px 28px;
+    min-height: 62px;
+    width: 100%;
+    color: var(--text);
+    font-size: 16px;
+    font-weight: 400;
+    transition: all .4s;
+}
+
+.input__field:hover {
+    border: 1px solid var(--accent);
+    color: var(--accent);
+}
+
+.input__field:focus {
+    border: 1px solid var(--accent);
+    color: var(--text);
+    content: '412094i012j4';
+    padding: 27px 28px 12px 28px;
+}
+
+.input__field:focus+span {
+    opacity: 1;
+    visibility: visible;
+}
