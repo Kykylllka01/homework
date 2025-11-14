@@ -110,8 +110,8 @@
             type: "fraction",
         },
         navigation: {
-            nextEl: '.gallery__prev',
-            prevEl: '.gallery__next',
+            nextEl: '.gallery__next',
+            prevEl: '.gallery__prev',
         },
         breakpoints: {
             450: {
@@ -165,5 +165,6 @@
 
         },
     })
+
 
 })()
