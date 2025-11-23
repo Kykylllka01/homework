@@ -1,0 +1,67 @@
+:root {
+    --font-family: "Open Sans", sans-serif;
+    --second-family: "NAMU Pro", sans-serif;
+    --dark: #111;
+    --bg-accent: #DDD;
+    --light: #fff;
+    --bg: #f8f8f8;
+    --accent: #c5358c;
+    --trans: all .4s;
+    --bor-rad: 3px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    font-family: var(--font-family);
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.main__hero {
+    padding: 13.5vw 0 13.5vw;
+}
+
+.main__products,
+.main__expert,
+.main__why-us,
+.main__sales,
+.main__testimonials,
+.main__faq,
+.main__news {
+    padding: 150px 0;
+}
+
+.main_vector {
+    padding: 60px 0;
+}
+
+.main__forms {
+    padding: 150px 0 114px;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 0 20px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.body--opened-menu {
+    overflow: hidden;
+}
